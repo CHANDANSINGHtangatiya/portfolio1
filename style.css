@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background: #000;
+    color: white;
+    position: relative;
+}
+.cursor{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: white;
+    z-index: 99;
+    position: absolute;
+    mix-blend-mode: difference;
+    transition: all linear 0.2;
+    cursor: pointer;
+}
+.page1{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    
+   
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 20px;
+    z-index: 999;
+
+}
+.nav_part2{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    border: 2px dotted white;
+    
+}
+.btn i{
+    align-items: center;
+    margin-top: 15PX;
+    margin-left: 17px;
+}
+.nav_part3{
+    background-color: aqua;
+    color: aliceblue;
+    border-radius: 25px;
+    padding: 9px;
+    box-shadow: 0 0 1vmax #FC626A;
+    
+}
+.page1_part1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.page1_part1 h1{
+    font-size: 5vw;
+
+}
+
+
+/* responsive */
+@media (max-width:600px) {
+
+    .nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        top: 1vh;
+        overflow: hidden;
+        z-index: 99;
+        padding: 4vw;
+    }
+.nav_part3{
+    font-size: 6px;
+    margin-right: 5px;
+}
+.btn{
+    width: 15px;
+}
+.btn i{
+    align-items: center;
+    margin-top: 15PX;
+    margin-left: 17px;
+    
+}
+.nav h1{
+    font-size: 7px;
+}
+    .img1 img{
+        width: 500px;
+        margin-top: 40px;
+
+    }
+    .page1_part1 h1{
+        margin-top: 20px;
+        font-size: 3rem;
+    }
+
+   .logo1 .btn h1{
+    border: none;
+   }
+  .containt1  h1{
+    margin-top: 10px;
+    font-size: 6vw;
+   }
+   .intro_div h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+   }
+
+
+}
+
+/* page 1 end😘 */
+
+.page2{
+   
+    width: 100vw;
+    
+    white-space: nowrap;
+    
+}
+.name_div h1{
+    display: inline-block;
+    font-size: 9vw;
+    margin-left: 5vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+  
+    font-weight: bold;
+    
+}
+.intro_div{
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    padding-top: 4vh;
+    padding-bottom: 10vh;
+    margin: auto auto;
+}
+.intro_div h1{
+    word-spacing: 0.2vw;
+    letter-spacing: 0.01vw;
+    font-size: 4.4vw;
+    line-height: 6.3vw;
+    display: block;
+}
+.account a{
+   margin: 40px;
+    background-color: #FC626A;
+    padding: 10px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: aliceblue;
+    word-spacing: 0.2vw;
+    letter-spacing: 0.01vw;
+    font-size: 4.4vw;
+    line-height: 6.3vw;
+    display: block;
+}
+.account a:nth-child(1){
+    background-color: aqua;
+}
+
+/* page3 coding */
+
+.page3{
+    width: 100vw;
+    background: #272626;
+}
+h1 span{
+    color: rgb(28, 95, 240);
+}
+.big{
+    font-size: 5vw;
+    margin-top: 3vw;
+}
+.thoda{
+font-size: 2vw;
+}
+.btn h1{
+     border: 2px solid white;
+    width: 15vw;
+    text-align: center;
+    margin-top: 3vw;
+    padding: 5px;
+  
+}
+.containt1{
+    margin-left: 5vw;
+}
+.logo1{
+    margin-left: 5vw;
+}
+.emg{
+    display: grid;
+ 
+}
+.emg img{
+    width: 120px;
+    margin: 3vw;
+    background-color: aliceblue;
+    padding: 5px;
+    border-radius: 5px;
+    align-items: center;
+}
+.page4{
+    width: 100vw;
+
+    background: #3e3e3e;
+}
+.ending h1{
+    font-size: 10vw;
+    text-align: center;
+}
+.ending span:nth-child(1){
+    color: #FC626A;
+}
+.footer{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-top: 5rem;
+}
